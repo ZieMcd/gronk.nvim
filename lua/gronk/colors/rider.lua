@@ -1,7 +1,8 @@
 return {
     -- Default
     fg = "#bdbdbd",
-    bg = "#000000",
+    bg = "#262727",
+    cursor = "#1c1c1c",
     window_bg = "#101010",
     window_accent = "#202020",
 

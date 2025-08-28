@@ -6,7 +6,7 @@ function M.get(c, opts)
         Conceal = { fg = c.redundant, bg = c.none }, -- Grayed out
         Cursor = { fg = c.fg, bg = c.macro }, -- Character under the cursor
         CursorIM = { fg = c.fg, bg = c.bg }, -- Character under the cursor in IME mode
-        CursorLine = { fg = c.keyword, bg = c.none }, -- Screen line at the cursor
+        CursorLine = { bg = c.cursor }, -- Screen line at the cursor
         CursorLineNr = { fg = c.redundant, bg = c.none }, -- Unknown
         DiagnosticError = { fg = c.error },
         DiagnosticHint = { fg = c.hint },
@@ -53,7 +53,7 @@ function M.get(c, opts)
         VertSplit = { fg = c.window_accent, bg = c.window_bg }, -- Vertical split border
         WinBar = { fg = c.fg }, -- bg = c.window_bg
         WinBarNC = { fg = c.fg },
-        WinSeparator = { fg = c.bg, bg = c.none }, -- Window border
+        WinSeparator = { fg = "black", bg = c.none }, -- Window border
         healthError = { fg = c.error },
         healthSuccess = { fg = c.ok },
         healthWarning = { fg = c.warn },

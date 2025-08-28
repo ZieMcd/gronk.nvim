@@ -46,6 +46,7 @@ function M.get(c, opts)
         -- SnacksDashboardTerminal = { link = "SnacksDashboardNormal" }, -- Terminal text
         -- SnacksDashboardSpecial = { link = "Special" },                -- Special elements
         -- SnacksDashboardTitle = { link = "Title" },                    -- Title text
+        SnakcsWinKeySep = { fg = "black", bg = "black" },
     }
 end
 
